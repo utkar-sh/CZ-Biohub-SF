@@ -12,20 +12,21 @@
     python manage.py migrate
 
 2. Run the backend server using the following code:
-  ```shell
-  python manage.py runserver
+   ```shell
+      python manage.py runserver
 
 3. [Optional] You can test the API alone using Postman at this point. 
     
   POST localhost:8000/fibonacci/
 
   Use the following in the body after selection Raw --> JSON
-  ```shell
-  {
-    "n": <input of your choice>
-  }
+      ```json
+        {
+            "n": <input of your choice>
+        }
+        ```
 
 4. You can skip manual testing the backend and jump straight to testing the full-stack application by running the following command in the frontend directory:
-  ```shell
-  npm start
+   ```shell
+      npm start
 
