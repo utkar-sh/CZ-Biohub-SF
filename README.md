@@ -1,6 +1,6 @@
 # CZ-Biohub-SF
 
-## Tools & Technologies used: React + Django
+Tools & Technologies used: React (chosen because of willingness to learn new framework) + Django (chosen because of prior familiarity)
 
 ## Instructions to run:
 
@@ -27,3 +27,13 @@
    ```shell
    npm start
 
+NOTE: 
+
+1. The backend application code has been inspired from a backend Python service I designed for an academic project using Python Flask. Some of the code snippets like REST calls have been reused. 
+2. Frontend code using React has been based on my research on the internet[1][2] and reusing components found on internet using StackOverflow.
+3. To make the backend work well with frontend and especially figuring out routing, I utilized ChatGPT. The CORS issue was discovered from same and fix was discovered using ChatGPT.
+
+Future Extensions:
+
+1. I haven't handled edge cases like limiting the size of input.
+2. There is a scope to add CI/CD workflow for error checking and better development practices.
