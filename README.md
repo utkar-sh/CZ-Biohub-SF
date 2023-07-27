@@ -20,11 +20,11 @@
   POST localhost:8000/fibonacci/
 
   Use the following in the body after selection Raw --> JSON
-```json
-{
-   "n": <input of your choice>
-}
-```
+  ```json
+    {
+       "n": <input of your choice>
+    }
+  ```
 
 4. You can skip manual testing the backend and jump straight to testing the full-stack application by running the following command in the frontend directory:
    ```shell
